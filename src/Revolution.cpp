@@ -1,6 +1,8 @@
 // ================================================================
 // SLEEPTHEGOD'S MW2 REVOLUTION MOD - COMPLETE SOURCE
 // Version 3.0 - The mod that brings MW2 back
+// to compile this x86_64-w64-mingw32-g++ -shared -O2 -D_WIN32_WINNT=0x0600 -D_CRT_SECURE_NO_WARNINGS Revolution.cpp -o Revolution.dll -lkernel32 -luser32 -lgdi32 -lws2_32 -static-libgcc -static-libstdc++ -Wl,--dynamicbase -Wl,--nxcompat
+// sudo apt update && sudo apt install g++-mingw-w64-x86-64 -y
 // ================================================================
 
 #include <windows.h>
